@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/Arjun_011">
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
